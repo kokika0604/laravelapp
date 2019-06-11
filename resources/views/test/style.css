@@ -1,0 +1,103 @@
+@charset "UTF-8";
+html {
+	font-family: sans-serif;
+  margin:0 auto 0 auto;
+	max-width:800px;
+}
+html * {
+	box-sizing: border-box;
+}
+div[p1] ,div[p2]{
+  border:1px solid;
+	height:1000px;
+	margin-bottom:20px;
+}
+h2 {
+  font-size:30px;
+  padding:5px 5px 5px 5px;
+	margin:20px 0 20px 0;
+  text-align:center;
+}
+
+img {
+  height:120px;
+  width:120px;
+  border:1px solid;
+	max-width:100%;
+	height:auto;
+}
+
+th{
+  font-size:14px;
+}
+
+
+.basic{
+  width:600px;
+  margin:10px 0px 10px 0px;
+  border-collapse:collapse;
+}
+
+.info{
+  border-collapse:collapse;
+  width:450px;
+  height:120px;
+  border:1px solid;
+}
+.info td,.info th{
+  border:1px solid;
+}
+
+.address{
+  border-collapse:collapse;
+  width:600px;
+  margin:10px 0px 10px 0px;
+  border:1px solid;
+}
+.address th,.address td{
+  border:1px solid;
+}
+.exp {
+  border-collapse:collapse;
+  width:600px;
+  margin:10px 0px 10px 0px;
+}
+.exp td,.exp th{
+  text-align:center;
+  border:1px solid;
+}
+
+.episode{
+  border-collapse:collapse;
+  width:600px;
+  margin:10px 0px 10px 0px;
+}
+.episode th,.episode td{
+  border:1px solid;
+}
+
+.qua {
+  border-collapse:collapse;
+  width:600px;
+  margin:10px 0px 10px 0px;
+}
+.qua td,.qua th{
+  text-align:center;
+  border:1px solid;
+}
+.moti{
+  border-collapse:collapse;
+  width:600px;
+  margin:10px 0px 10px 0px;
+}
+.moti th,.moti td{
+  border:1px solid;
+}
+
+
+@media (max-width:767px) {
+	div {
+		margin:0 8px;
+	}
+
+	}
