@@ -1,7 +1,5 @@
-<!--前台显示页面  -->
-<!-- bootstrap的引用放在layouts/app文件中 -->
 @extends("user.layouts.app", array("title" => "mypage"))
-<!--内容 引用 -->
+
 @section("content")
 <h1>Welcome,{{$user->name}}!<h1>
     <br>
