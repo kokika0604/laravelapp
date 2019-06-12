@@ -10,5 +10,6 @@
     <a href="{{ route('get_user_favourites') }}">お気に入り</a>
     <br>
     <a href="{{route('get_user_logout')}}">logout</a>
+    <br><br>
     
 @endsection
